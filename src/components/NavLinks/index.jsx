@@ -9,10 +9,10 @@ export default function NavLinks() {
 
   return (
     <div className="flex items-center gap-6">
-      <NavLink to="/Home" className="">
+      <NavLink to="/Home" className=" hover:text-Visua-Placeholder/icon transition duration-200">
         Pagina Inicial
       </NavLink>
-      <NavLink to="/Download" className="">
+      <NavLink to="/Download" className=" hover:text-Visua-Placeholder/icon transition duration-200">
         Download
       </NavLink>
 
@@ -22,8 +22,8 @@ export default function NavLinks() {
       </NavLink> : <></>}
       
       <NavLink to="/*" className="flex items-center">
-        <Button className={"max-h-7 group"}>
-          <p className="text-base mr-2 flex-shrink-0">Entrar</p>
+        <Button className="max-h-7 group text-lg">
+          <p className="text-base mr-2 flex-shrink-0 group-hover:text-Visua-Placeholder/icon transition duration-200">Entrar</p>
           <span className="flex items-center justify-center w-12 h-12 rounded-full bg-Visua-Text text-Visua-Blue group-hover:text-Visua-Blue-houver transition duration-200">
             <FaUser className="w-6 h-6" />
           </span>

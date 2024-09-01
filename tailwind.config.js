@@ -14,6 +14,7 @@ export default {
         "Visua-Login/Nav": "rgba(52, 142, 180, 0.25)",
         "Visua-Placeholder/icon": "#B2C7DD",
         "Visua-Input": "#202A32",
+        "Visua-Form": "#171B20",
         "Visua-Transparence": "rgba(23, 27, 32, 0.5)",
         // Cores usadas no figma do visua de desktop
       },
