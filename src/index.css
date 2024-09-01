@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Tiresias Infofont';
+    src: url('/fonts/tiresias_infofont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Tiresias Infofont';
+    src: url('/fonts/tiresias_infofont_italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
