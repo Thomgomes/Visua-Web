@@ -1,19 +1,25 @@
 /* eslint-disable react/prop-types */
-import { useState } from 'react';
-import RegisterForm from './RegisterForm'; // Ajuste o caminho conforme necessário
-import LoginForm from './LoginForm'; // Supondo que você tenha um componente Login similar
+import { useState } from "react";
+import RegisterForm from "./RegisterForm";
+import LoginForm from "./LoginForm";
 
-export default function AuthContainer ({ onClose }) {
-  const [isRegisterForm, setIsRegisterForm] = useState(true);
+export default function AuthContainer({ formType, onClose }) {
+  const [isForm, setIsForm] = useState(formType);
 
   const toggleForm = () => {
-    setIsRegisterForm(prevState => !prevState);
+    setIsForm((prevState) => !prevState);
   };
 
   return (
-    <div className="fixed inset-0 bg-Visua-Transparence flex items-center justify-center" onClick={onClose}>
-      <div className="bg-Visua-Form px-8 py-10 rounded-3xl shadow-lg relative" onClick={(e) => e.stopPropagation()}>
-        {isRegisterForm ? (
+    <div
+      className="fixed inset-0 bg-Visua-Transparence flex items-center justify-center"
+      onClick={onClose}
+    >
+      <div
+        className="bg-Visua-Form px-8 py-10 rounded-3xl shadow-lg relative"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {isForm ? (
           <RegisterForm onClose={onClose} toggleForm={toggleForm} />
         ) : (
           <LoginForm onClose={onClose} toggleForm={toggleForm} />
@@ -21,5 +27,4 @@ export default function AuthContainer ({ onClose }) {
       </div>
     </div>
   );
-};
-
+}
