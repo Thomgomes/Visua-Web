@@ -20,6 +20,7 @@ O **Visua** é uma aplicação que ajuda pessoas com deficiência visual a escan
 - **TailwindCSS**
 - **Lucide Icons**
 - **React Icons**
+- **Framer motion**
 
 ## Instalação
 
