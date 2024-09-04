@@ -1,6 +1,12 @@
 /* eslint-disable react/prop-types */
+import { SideBarContentLi } from "../../Animations/Motion/Variants";
 import NavigationLink from "../NavigationLink";
+import { motion } from "framer-motion";
 
 export default function NavigationLinkMobile({ link, text }) {
-  return <NavigationLink link={link} className={"text-Visua-Bg"} text={text} />;
+  return (
+    <motion.li variants={SideBarContentLi}>
+      <NavigationLink link={link} className={"text-Visua-Bg"} text={text} />{" "}
+    </motion.li>
+  );
 }
