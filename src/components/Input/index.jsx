@@ -28,7 +28,7 @@ export default function Input({
         onChange={onChange}
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
-        className="block w-full placeholder:pl-10 p-2.5 border-2 bg-Visua-Input placeholder:text-Visua-Placeholder/icon border-Visua-Blue rounded-full focus:ring-2 focus:outline-none focus:ring-Visua-Placeholder/icon transition duration-300 ease-in-out"
+        className="block w-full placeholder:pl-10 p-2.5 border-2 bg-Visua-Input placeholder:text-Visua-Placeholder/icon border-Visua-Blue rounded-full focus:ring-2 focus:outline-none transition duration-300 ease-in-out"
       />
     </div>
   );
