@@ -70,14 +70,14 @@ export default function Navigation() {
             variants={SideBar}
             initial="close"
             animate={isOpen ? "open" : "close"}
-            className="absolute right-0 top-0 h-screen bg-Visua-Text"
+            className="absolute right-0 top-0 h-screen bg-Visua-Form"
           >
             <div className="h-32 w-full"></div>
             <motion.ul
               variants={SideBarContentUl}
               initial="close"
               animate={isOpen ? "open" : "close"}
-              className="flex flex-col items-center justify-center h-auto w-full gap-3"
+              className="flex flex-col items-center justify-center h-auto w-full gap-6"
             >
               <NavigationLinkMobile link="/Home" text="Pagina Inicial" />
               <NavigationLinkMobile link="/Download" text="Download" />

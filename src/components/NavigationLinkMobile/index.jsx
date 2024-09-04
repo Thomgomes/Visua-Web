@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function NavigationLinkMobile({ link, text }) {
   return (
     <motion.li variants={SideBarContentLi}>
-      <NavigationLink link={link} className={"text-Visua-Bg"} text={text} />{" "}
+      <NavigationLink link={link} className={""} text={text} />{" "}
     </motion.li>
   );
 }
