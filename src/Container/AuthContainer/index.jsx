@@ -12,7 +12,7 @@ export default function AuthContainer({ formType, onClose }) {
 
   return (
     <div
-      className="fixed inset-0 bg-Visua-Transparence flex items-center justify-center"
+      className="fixed inset-0 z-[2] bg-Visua-Transparence flex items-center justify-center"
       onClick={onClose}
     >
       <div

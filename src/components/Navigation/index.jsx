@@ -60,7 +60,7 @@ export default function Navigation() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.3 }}
           onClick={() => toggleNavBar()}
-          className="bg-Visua-Text p-3 z-10 text-Visua-Bg rounded-full flex justify-center items-center"
+          className="bg-Visua-Text p-3 z-[1] text-Visua-Bg rounded-full flex justify-center items-center"
         >
           {isOpen ? <X /> : <Menu />}
         </motion.button>
