@@ -2,7 +2,7 @@
 
 import { Link } from "react-router-dom";
 import { Mail, User, Lock, X } from "lucide-react";
-import Button from "../../../components/Btn";
+import Button from "../../../components/Button";
 import Input from "../../../components/Input";
 import { useState } from "react";
 

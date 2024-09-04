@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import AuthContainer from "../../Container/AuthContainer";
-import Button from "../Btn";
+import Button from "../Button";
 import { useState } from "react";
 
 export default function ButtonForm({ children, className, py, formType }) {

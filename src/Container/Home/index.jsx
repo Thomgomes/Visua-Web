@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Button from "../../components/Btn";
-import ButtonForm from "../../components/BtnForm";
+import Button from "../../components/Button";
+import ButtonForm from "../../components/ButtonForm";
 
 
 export default function Home() {
